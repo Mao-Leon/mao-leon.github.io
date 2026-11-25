@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Mao Leon | Ingeniero de Software Senior Full-Stack, Cloud &amp; IA</title>
+  <meta name="description" content="Portafolio de Mao Leon, Ingeniero de Software Senior Full-Stack e IA con 6 años de experiencia en Java (Spring Boot, Quarkus), Python (FastAPI), React, Angular, DevSecOps (Kubernetes, Terraform) y arquitecturas RAG.">
+  <meta name="author" content="Mao Jovaldo Leon Crispin">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#10182B">
+  <link rel="canonical" href="https://mao-leon.github.io/">
+  <link rel="alternate" type="text/plain" title="LLMs Context" href="https://mao-leon.github.io/llms.txt">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:site_name" content="Mao Leon">
+  <meta property="og:title" content="Mao Leon | Ingeniero de Software Senior Full-Stack, Cloud &amp; IA">
+  <meta property="og:description" content="Diseño plataformas Full-Stack resilientes integrando arquitectura Cloud, DevSecOps e IA aplicada donde aporte valor real.">
+  <meta property="og:url" content="https://mao-leon.github.io/">
+  <meta property="og:image" content="https://mao-leon.github.io/images/profile-pic@2x.jpg">
+  <meta property="og:image:alt" content="Mao Leon — Ingeniero de Software Senior Full-Stack e IA">
+  <meta property="profile:first_name" content="Mao Jovaldo">
+  <meta property="profile:last_name" content="Leon Crispin">
+  <meta property="profile:username" content="Mao-Leon">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mao Leon | Ingeniero de Software Senior Full-Stack, Cloud &amp; IA">
+  <meta name="twitter:description" content="Portafolio de Mao Leon: Java, Python, React, Angular, Kubernetes, Terraform e IA aplicada (RAG y Agentic Workflows).">
+  <meta name="twitter:image" content="https://mao-leon.github.io/images/profile-pic@2x.jpg">
+
+  <!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vendor.css">
+
+  <!-- script
+    ================================================== -->
+  <script src="js/modernizr.js"></script>
+
+  <!-- favicons
+    ================================================== -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Structured Data / Knowledge Graph (SEO & GEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mao-leon.github.io/#website",
+        "url": "https://mao-leon.github.io/",
+        "name": "Mao Leon — Portafolio",
+        "inLanguage": "es"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://mao-leon.github.io/#profilepage",
+        "url": "https://mao-leon.github.io/",
+        "name": "Mao Leon | Ingeniero de Software Senior Full-Stack, Cloud & IA",
+        "isPartOf": { "@id": "https://mao-leon.github.io/#website" },
+        "mainEntity": { "@id": "https://mao-leon.github.io/#person" },
+        "inLanguage": "es"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://mao-leon.github.io/#person",
+        "name": "Mao Leon",
+        "givenName": "Mao Jovaldo",
+        "familyName": "Leon Crispin",
+        "alternateName": [
+          "Mao Jovaldo Leon Crispin",
+          "Mao Leon Crispin",
+          "Jovaldo Leon"
+        ],
+        "jobTitle": "Ingeniero de Software Senior Full-Stack e IA",
+        "description": "Ingeniero de Software Senior con 6 años de trayectoria coliderando sistemas distribuidos, ecosistema Java Full-Stack, arquitectura Cloud, DevSecOps e IA aplicada.",
+        "url": "https://mao-leon.github.io/",
+        "image": "https://mao-leon.github.io/images/profile-pic@2x.jpg",
+        "email": "mailto:jovaldo.leon@gmail.com",
+        "telephone": "+51960915633",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PE"
+        },
+        "knowsLanguage": ["es", "en"],
+        "knowsAbout": [
+          "Java", "Spring Boot", "Quarkus", "Python", "FastAPI", "Node.js", "NestJS",
+          "TypeScript", "React", "Next.js", "Angular", "RxJS",
+          "Clean Architecture", "Domain-Driven Design", "Event-Driven Architecture",
+          "Kubernetes", "Docker", "Terraform", "DevSecOps", "Azure", "AWS",
+          "Dynatrace", "Grafana", "ELK", "Redis", "Oracle Database",
+          "Retrieval-Augmented Generation (RAG)", "Large Language Models", "Agentic Workflows"
+        ],
+        "alumniOf": [
+          { "@type": "Organization", "name": "BCP (Banco de Crédito del Perú)" },
+          { "@type": "Organization", "name": "Pacífico Seguros" },
+          { "@type": "Organization", "name": "Claro Perú" }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/mao-leon/",
+          "https://github.com/Mao-Leon",
+          "https://www.youtube.com/channel/UCIbs1nWaDof06giSgJNrxCw",
+          "https://www.instagram.com/mao__leon/"
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://mao-leon.github.io/#portfolio-projects",
+        "name": "Proyectos destacados de Mao Leon",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "Programa Qore — BCP",
+              "applicationCategory": "FinanceApplication",
+              "url": "https://www.viabcp.com/qore",
+              "author": { "@id": "https://mao-leon.github.io/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "One Click Deploy — BCP",
+              "applicationCategory": "DeveloperApplication",
+              "url": "https://www.viabcp.com/",
+              "author": { "@id": "https://mao-leon.github.io/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "WebApplication",
+              "name": "Somos Corredores — Pacífico",
+              "applicationCategory": "BusinessApplication",
+              "url": "https://somoscorredores.pacifico.com.pe/",
+              "author": { "@id": "https://mao-leon.github.io/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "MobileApplication",
+              "name": "Claro Comercio — Claro",
+              "operatingSystem": "Android",
+              "applicationCategory": "BusinessApplication",
+              "url": "https://play.google.com/store/apps/details?id=com.claro.clarocomercioapp",
+              "author": { "@id": "https://mao-leon.github.io/#person" }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body id="top">
+
+
+  <!-- preloader
+  ================================================== -->
+  <div id="preloader">
+      <div id="loader" class="dots-fade">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+  </div>
+
+
+  <!-- header
+  ================================================== -->
+  <header class="s-header">
+
+    <div class="header-logo">
+      <a href="index.html">
+        <img src="logo-ML.svg" alt="Mao Leon">
+      </a>
+    </div>
+
+    <div class="header-content">
+
+      <nav class="row header-nav-wrap">
+        <ul class="header-nav">
+          <li><a class="smoothscroll" href="#inicio" title="Inicio">Inicio</a></li>
+          <li><a class="smoothscroll" href="#acerca-de-mi" title="Acerca de m&iacute;">Acerca de m&iacute;</a></li>
+          <li><a class="smoothscroll" href="#servicios" title="Servicios">Servicios</a></li>
+          <li><a class="smoothscroll" href="#trayectoria" title="Trayectoria">Trayectoria</a></li>
+          <li><a href="mailto:jovaldo.leon@gmail.com" title="Cont&aacute;ctame">Cont&aacute;ctame</a></li>
+        </ul>
+      </nav> <!-- end header-nav-wrap -->
+
+      <a href="https://drive.google.com/uc?export=download&confirm=t&id=1r4XRp2z9puy_dV8vkoIIealkSRhk0r9q" class="btn btn--stroke btn--small btn-water-blob btn-water-blob--cv">
+        <canvas class="btn-water-blob__canvas"></canvas>
+        <span class="btn-water-blob__label">Download CV</span>
+      </a>
+
+    </div> <!-- end header-content -->
+
+    <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+  </header>
+
+
+  <!-- inicio
+  ================================================== -->
+  <section id="inicio" class="s-inicio target-section" data-parallax="scroll" data-image-src="images/inicio-bg-3000.jpg"
+    data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+    <div class="row inicio-content">
+
+      <div class="column large-full">
+
+        <h1>
+          Hola, soy Mao Leon,  <br>
+          Ingeniero de Software  <br>
+          Full-Stack e IA. <br>
+        </h1>
+
+        <ul class="inicio-social">
+          <li>
+            <a href="https://www.linkedin.com/in/mao-leon" target="_blank" rel="noopener noreferrer" title="LinkedIn de Mao Leon">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/Mao-Leon" target="_blank" rel="noopener noreferrer" title="GitHub de Mao Leon">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCIbs1nWaDof06giSgJNrxCw" target="_blank" rel="noopener noreferrer" title="YouTube de Mao Leon">YouTube</a>
+          </li>
+        </ul> <!-- end inicio-social -->
+
+      </div>
+
+    </div> <!-- end inicio-content -->
+
+    <div class="inicio-scroll">
+      <a href="#acerca-de-mi" class="scroll-link smoothscroll" aria-label="Ir a la sección Acerca de mí">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 24l-8-9h6v-15h4v15h6z" />
+        </svg>
+      </a>
+    </div> <!-- end inicio-scroll -->
+
+  </section>
+
+
+  <!-- about
+    ================================================== -->
+  <section id="acerca-de-mi" class="s-about target-section">
+
+    <div class="s-about__section s-about__section--profile">
+
+      <div class="right-vert-line"></div>
+
+      <div class="row">
+        <div class="column large-6 medium-8 tab-full">
+
+          <div class="section-intro" data-num="01" data-aos="fade-up">
+            <h3 class="subhead">Acerca de m&iacute;</h3>
+            <h2 class="display-1">Diseño plataformas Full-Stack resilientes, 
+                integrando arquitectura Cloud e IA donde aporte valor real.</h2>
+          </div>
+
+          <div class="profile-pic" data-aos="fade-up">
+            <img src="images/profile-pic.jpg" srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="Mao Leon, Ingeniero de Software Senior Full-Stack e IA">
+          </div>
+
+          <h3 data-aos="fade-up">Perfil</h3>
+
+          <p data-aos="fade-up">
+            Ingeniero de Software Senior con 6 años de trayectoria coliderando sistemas distribuidos.
+            Especializado en el ecosistema Java Full Stack enfocado en desarrollo web y móvil.
+            Diseño aplicaciones empresariales a gran escala y plataformas transaccionales con un fuerte enfoque en UI/UX.
+            Dominio práctico de arquitecturas modernas (Spring Boot, NestJS, FastAPI) e infraestructura cloud.
+            Trabajo para eliminar fricción técnica, deuda operativa y entregar software altamente mantenible.
+            Optimizo el ciclo de entrega mediante contenedores, cultura DevOps y flujos de IA.
+          </p>
+
+
+        </div>
+      </div>
+
+    </div> <!-- end s-about__section--profile -->
+
+    <div class="s-about__section">
+      <div class="row">
+        <div class="column">
+          <h3 data-aos="fade-up">Carrera</h3>
+        </div>
+      </div>
+    
+      <div class="row block-large-1-2 block-900-full work-positions">
+        <div class="column" data-aos="fade-up">
+          <div class="position">
+            <div class="position__header">
+              <h6>
+                <span class="position__co">Freelancer</span>
+                <span class="position__pos">Senior Software Engineer</span>
+              </h6>
+              <div class="position__timeframe">Junio 2026 - Actualidad</div>
+            </div>
+    
+            <p>
+              Lidero el desarrollo integral de aplicaciones empresariales full-stack
+              de alto rendimiento. Diseño microservicios avanzados en Java y Python
+              junto a interfaces web modernas e intuitivas. Estructuro la gestión de
+              estado y arquitecturas escalables enfocadas en una óptima UI/UX.
+            </p>
+          </div>
+        </div>
+        <!-- end column -->
+    
+        <div class="column" data-aos="fade-up">
+          <div class="position">
+            <div class="position__header">
+              <h6>
+                <span class="position__co">BCP</span>
+                <span class="position__pos"
+                  >Software Engineer</span
+                >
+              </h6>
+              <div class="position__timeframe">Noviembre 2023 - Abril 2026</div>
+            </div>
+    
+            <p>
+              Construí microservicios core para programas de lealtad bajo Clean
+              Architecture y DDD. Automaticé flujos distribuidos y pipelines de
+              despliegue cloud mediante IaC con Terraform. Optimicé el rendimiento y
+              observabilidad en producción sobre ecosistemas de Kubernetes.
+            </p>
+          </div>
+        </div>
+        <!-- end column -->
+    
+        <div class="column" data-aos="fade-up">
+          <div class="position">
+            <div class="position__header">
+              <h6>
+                <span class="position__co">Pacífico</span>
+                <span class="position__pos">Software Engineer</span>
+              </h6>
+              <div class="position__timeframe">Noviembre 2022 - Octubre 2023</div>
+            </div>
+    
+            <p>
+              Modernicé interfaces web avanzadas optimizando la experiencia de
+              usuario y tiempos de respuesta. Refactoricé flujos críticos de venta e
+              integraciones backend eliminando deudas técnicas complejas. Aseguré la
+              entrega continua implementando pipelines automatizados de control de
+              calidad.
+            </p>
+          </div>
+        </div>
+        <!-- end column -->
+    
+        <div class="column" data-aos="fade-up">
+          <div class="position">
+            <div class="position__header">
+              <h6>
+                <span class="position__co">Claro</span>
+                <span class="position__pos">Software Engineer</span>
+              </h6>
+              <div class="position__timeframe">Enero 2022 - Octubre 2022</div>
+            </div>
+    
+            <p>
+              Desarrollé servicios backend clave para la aplicación móvil oficial de
+              ventas comerciales. Diseñé procesamientos asíncronos en la nube para
+              desacoplar de forma segura la carga de documentos. Mejoré el
+              rendimiento de base de datos Oracle y validación de servicios web.
+            </p>
+          </div>
+        </div>
+        <!-- end column -->
+      </div>
+      <!-- work positions -->
+    </div>
+    <!-- end s-about__section -->
+
+  </section> <!-- end s-about -->
+
+
+  <!-- services
+  ================================================== -->
+  <section id="servicios" class="s-services target-section h-dark-bg">
+      
+      <div class="row s-services__content">
+
+          <div class="vert-line"></div>
+
+          <div class="column large-6 s-services__leftcol">
+              <div class="section-intro" data-num="02" data-aos="fade-up">
+                  <h3 class="subhead">Servicios</h3>
+
+                  <h2 class="display-1">
+                  Desarrollo de Software end-to-end, despliegue Cloud e IA.
+                  </h2>
+              </div>
+
+              <p class="lead" data-aos="fade-up">
+              Especializado en llevar aplicaciones empresariales y plataformas transaccionales 
+              desde el diseño hasta producción. Combino arquitecturas Backend escalables, 
+              experiencias UI/UX intuitivas, despliegue automatizado en contenedores 
+              y flujos potenciados con IA
+              </p>
+          </div> <!-- end  s-services--leftcol -->
+
+                    <div class="column large-6">
+              <ul class="services-list" data-aos="fade-up">
+                  <li class="services-list__item is-active">
+                      <div class="services-list__item-header">
+                          <h5>Arquitectura de Software & Sistemas Distribuidos</h5>
+                      </div>
+                      <div class="services-list__item-body">
+                          <p>
+                          Diseño de ecosistemas de alta disponibilidad bajo Clean Architecture, DDD 
+                          y patrones Event-Driven. Priorizo la simplicidad estructural, la separación 
+                          clara de responsabilidades y la observabilidad desde el diseño para construir 
+                          plataformas resilientes y libres de deuda técnica.
+                          </p>
+                      </div>
+                  </li> <!-- services-list__item -->
+                  <li class="services-list__item">
+                      <div class="services-list__item-header">
+                          <h5>Desarrollo Backend & Microservicios</h5>
+                      </div>
+                      <div class="services-list__item-body">
+                          <p>
+                          Construcción de APIs REST y servicios transaccionales de alta demanda con Java 
+                          (Spring Boot, Quarkus), Python (FastAPI) y Node.js (NestJS). Resuelvo procesamiento 
+                          asíncrono e integración segura con bases de datos SQL, NoSQL y caché distribuido (Redis).
+                          </p>
+                      </div>
+                  </li> <!-- services-list__item -->
+                  <li class="services-list__item">
+                      <div class="services-list__item-header">
+                          <h5>Desarrollo Frontend & Experiencia UI/UX</h5>
+                      </div>
+                      <div class="services-list__item-body">
+                          <p>
+                          Implementación de aplicaciones web modernas, portales corporativos y paneles 
+                          administrativos con React (Next.js, Vite) y Angular (TypeScript, RxJS). Estructuro 
+                          interfaces rápidas con gestión de estado predecible, componentes reutilizables y 
+                          tiempos de respuesta optimizados.
+                          </p>
+                      </div>
+                  </li> <!-- services-list__item -->
+                  <li class="services-list__item">
+                      <div class="services-list__item-header">
+                          <h5>Cloud, DevSecOps & Rendimiento (SRE)</h5>
+                      </div>
+                      <div class="services-list__item-body">
+                          <p>
+                          Automatización de pipelines CI/CD e infraestructura como código (Terraform) en 
+                          Azure y AWS con Docker y Kubernetes (AKS). Ejecuto tuning de memoria/JVM para 
+                          reducir latencia y monitoreo continuo en producción mediante Dynatrace, Grafana y ELK.
+                          </p>
+                      </div>
+                  </li> <!-- services-list__item -->
+                  <li class="services-list__item">
+                      <div class="services-list__item-header">
+                          <h5>IA Aplicada, RAG & Flujos Agénticos</h5>
+                      </div>
+                      <div class="services-list__item-body">
+                          <p>
+                          Implementación de arquitecturas RAG, búsqueda semántica sobre bases vectoriales 
+                          e integración de LLMs en sistemas empresariales. Diseño flujos agénticos (Agentic Workflows) 
+                          y pipelines de automatización inteligente enfocados en resolver casos de uso reales en producción.
+                          </p>
+                      </div>
+                  </li> <!-- services-list__item -->
+              </ul> <!-- end services-list -->
+          </div>
+
+
+      </div> <!-- s-services__content -->
+
+  </section> <!-- end s-services -->
+
+
+  <!-- portfolio
+  ================================================== -->
+  <section id="trayectoria" class="s-portfolio target-section">
+
+      <div class="row s-portfolio__header">
+          <div class="column large-6 medium-8 tab-full">
+              <div class="section-intro" data-num="03" data-aos="fade-up">
+                  <h3 class="subhead">Portafolio</h3>
+                  <h2 class="display-1">
+                      Una selección de proyectos clave en los que he trabajado y llevado a producción.
+                  </h2>
+              </div>
+          </div>
+      </div> <!-- s-porfolio__header -->
+
+      <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
+
+          <div class="column" data-aos="fade-up">
+              <div class="folio-item">
+                  <div class="folio-item__thumb">
+                      <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-tarjeta-qore.jpg" title="Programa de Lealtad Qore — BCP" data-size="1050x700">
+                          <img src="images/portfolio/tarjeta-qore.jpg" 
+                               srcset="images/portfolio/tarjeta-qore.jpg 1x, images/portfolio/tarjeta-qore@2x.jpg 2x" alt="Programa de Lealtad Qore BCP">
+                      </a>
+                  </div>
+                  <div class="folio-item__info">
+                      <div class="folio-item__cat">Arquitectura Backend &amp; SRE</div>
+                      <h4 class="folio-item__title">Programa Qore — BCP</h4>
+                  </div>
+                  <a href="https://www.viabcp.com/qore" target="_blank" rel="noopener noreferrer" title="Ver plataforma Qore" class="folio-item__project-link">Ver plataforma</a>
+                  <div class="folio-item__caption">
+                      <p>Construcción de los microservicios core del programa de lealtad y acumulación/canje de puntos del BCP en Java (Quarkus, Spring Boot) bajo Clean Architecture y DDD. Ejecución de tuning de memoria/JVM en AKS, estrategias de caché y monitoreo en producción con Dynatrace, Grafana y ELK.</p>
+                  </div>
+              </div>
+          </div> <!-- end column -->
+
+          <div class="column" data-aos="fade-up">
+              <div class="folio-item">
+                  <div class="folio-item__thumb">
+                      <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-devsecops.jpg" title="One Click Deploy (OCD) — BCP" data-size="1050x700">
+                          <img src="images/portfolio/devsecops.jpg" 
+                               srcset="images/portfolio/devsecops.jpg 1x, images/portfolio/devsecops@2x.jpg 2x" alt="One Click Deploy DevSecOps BCP">
+                      </a>
+                  </div>
+                  <div class="folio-item__info">
+                      <div class="folio-item__cat">Cloud, DevSecOps &amp; IaC</div>
+                      <h4 class="folio-item__title">One Click Deploy — BCP</h4>
+                  </div>
+                  <a href="https://www.viabcp.com/" target="_blank" rel="noopener noreferrer" title="Ver ecosistema BCP" class="folio-item__project-link">Ver ecosistema</a>
+                  <div class="folio-item__caption">
+                      <p>Desarrollo del flujo CI/CD de despliegue automatizado dentro del equipo de DevSecOps del BCP. Integración de pipelines en Jenkins, aprovisionamiento de infraestructura como código en Azure con Terraform y automatizaciones operativas (Jira) en Python y Node.js mediante Azure Functions.</p>
+                  </div>
+              </div>
+          </div> <!-- end column -->
+
+          <div class="column" data-aos="fade-up">
+              <div class="folio-item">
+                  <div class="folio-item__thumb">
+                      <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-pacifico-seguros.jpg" title="Somos Corredores — Pacífico Seguros" data-size="1050x700">
+                          <img src="images/portfolio/pacifico-seguros.jpg" 
+                               srcset="images/portfolio/pacifico-seguros.jpg 1x, images/portfolio/pacifico-seguros@2x.jpg 2x" alt="Portal Somos Corredores Pacífico Seguros">
+                      </a>
+                  </div>
+                  <div class="folio-item__info">
+                      <div class="folio-item__cat">Full-Stack &amp; Modernización</div>
+                      <h4 class="folio-item__title">Somos Corredores — Pacífico</h4>
+                  </div>
+                  <a href="https://somoscorredores.pacifico.com.pe/" target="_blank" rel="noopener noreferrer" title="Visitar portal Somos Corredores" class="folio-item__project-link">Ver portal</a>
+                  <div class="folio-item__caption">
+                      <p>Refactorización de flujos críticos de emisión y venta digital sobre Liferay y Spring MVC, junto con interfaces para gestión de carteras de corredores en React, TypeScript y Redux Toolkit. Automatización de entrega continua con Jenkins, JFrog Artifactory y control de calidad en SonarQube.</p>
+                  </div>
+              </div>
+          </div> <!-- end column -->
+
+          <div class="column" data-aos="fade-up">
+              <div class="folio-item">
+                  <div class="folio-item__thumb">
+                      <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-claro-comercio.jpg" title="Claro Comercio — Claro Perú" data-size="1050x700">
+                          <img src="images/portfolio/claro-comercio.jpg" 
+                               srcset="images/portfolio/claro-comercio.jpg 1x, images/portfolio/claro-comercio@2x.jpg 2x" alt="App Claro Comercio en Google Play">
+                      </a>
+                  </div>
+                  <div class="folio-item__info">
+                      <div class="folio-item__cat">Backend Core &amp; Cloud AWS</div>
+                      <h4 class="folio-item__title">Claro Comercio — Claro</h4>
+                  </div>
+                  <a href="https://play.google.com/store/apps/details?id=com.claro.clarocomercioapp" target="_blank" rel="noopener noreferrer" title="Ver app en Google Play" class="folio-item__project-link">Ver en Google Play</a>
+                  <div class="folio-item__caption">
+                      <p>Desarrollo de servicios backend en Java (Spring Boot) para la app móvil de fuerza de ventas, integrando validación biométrica en el alta de vendedores y registro de comercios. Implementación de procesamiento asíncrono en AWS (S3, SQS) con Node.js y optimización de consultas en Oracle.</p>
+                  </div>
+              </div>
+          </div> <!-- end column -->
+
+      </div> <!-- folio-list -->
+
+  </section> <!-- end portfolio -->
+
+
+
+  <!-- testimonials / referentes
+  ================================================== -->
+  <section id="referentes" class="s-testimonials">
+
+      <div class="row s-testimonials__header">
+          <div class="column large-8 medium-10 tab-full">
+              <div class="section-intro" data-num="04" data-aos="fade-up">
+                  <h3 class="subhead">Referentes &amp; Visión</h3>
+                  <h2 class="display-1">
+                      Frases destacadas de líderes tecnológicos que inspiran mi enfoque en ingeniería e IA.
+                  </h2>
+              </div>
+          </div>
+      </div>
+
+      <div class="row collapse">
+
+          <div class="column large-full">
+
+              <div class="testimonial-slider" data-aos="fade-up">
+
+                  <div class="testimonial-slider__slide">
+                      <p>
+                      “¿Cómo construimos experiencias profundamente personales aprovechando 
+                      la IA que nos ayuden a todos a ser más creativos, 
+                      más productivos y a hacer lo que queramos hacer?”
+                      </p>
+                      <div class="testimonial-slider__author">
+                          <img src="images/avatars/user-02.jpg" alt="John Ternus" class="testimonial-slider__avatar">
+                          <cite class="testimonial-slider__cite">
+                              <strong>John Ternus</strong>
+                              <span>SVP de Ingeniería de Hardware, Apple</span>
+                          </cite>
+                      </div>
+                  </div> <!-- end testimonials__slide -->
+      
+                  <div class="testimonial-slider__slide">
+                      <p>
+                      “La inteligencia artificial nos permitirá responder 
+                      preguntas que los usuarios ni siquiera sabían que podían hacer.”
+                      </p>
+                      <div class="testimonial-slider__author">
+                          <img src="images/avatars/user-01.jpg" alt="Sundar Pichai" class="testimonial-slider__avatar">
+                          <cite class="testimonial-slider__cite">
+                              <strong>Sundar Pichai</strong>
+                              <span>CEO, Google</span>
+                          </cite>
+                      </div>
+                  </div> <!-- end testimonials__slide -->
+      
+                  <div class="testimonial-slider__slide">
+                      <p>
+                      “Las tecnologías van y vienen, por lo que debes ser capaz de formular 
+                      y responder a la pregunta: ¿qué haces como empresa, por qué existes?”
+                      </p>
+                      <div class="testimonial-slider__author">
+                          <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
+                          <cite class="testimonial-slider__cite">
+                              <strong>Satya Nadella</strong>
+                              <span>CEO, Microsoft</span>
+                          </cite>
+                      </div>
+                  </div> <!-- end testimonials__slide -->
+      
+                  <div class="testimonial-slider__slide">
+                      <p>
+                      “La invención es, por su propia naturaleza, 
+                      disruptiva. Si quieres que te entiendan siempre, 
+                      entonces no hagas nada nuevo.”
+                      </p>
+                      <div class="testimonial-slider__author">
+                          <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
+                          <cite class="testimonial-slider__cite">
+                              <strong>Jeff Bezos</strong>
+                              <span>Fundador, Amazon</span>
+                          </cite>
+                      </div>
+                  </div> <!-- end testimonials__slide -->
+
+              </div> <!-- end testimonial slider -->
+              
+          </div> <!-- end column -->
+
+      </div> <!-- end row -->
+
+  </section> <!-- end s-testimonials -->
+
+
+  <!-- footer
+  ================================================== -->
+  <footer class="s-footer h-dark-bg">
+      
+      <div class="right-vert-line"></div>
+
+      <div class="row s-footer__main">
+          <div class="column large-6">
+              <div class="section-intro" data-aos="fade-up">
+                  <h3 class="subhead">Hablemos</h3>
+
+                  <h2 class="display-1">
+                  ¿Tienes en mente un proyecto que te entusiasma? 
+                  Démosle vida juntos. Mándame un mensaje.
+                  </h2>
+              </div>
+
+              <div class="footer-email-us">
+                  <a href="https://wa.me/51960915633/?text=Hola%20Mao%20Leon%2C%20vi%20tu%20perfil%20y%20me%20gustar%C3%ADa%20conversar%20contigo%20sobre%20una%20oportunidad%20de%20colaboraci%C3%B3n%20o%20proyecto." class="btn btn--primary h-full-width btn-water-blob btn-water-blob--contact">
+                      <canvas class="btn-water-blob__canvas"></canvas>
+                      <span class="btn-water-blob__label">Contactar</span>
+                  </a>
+              </div>
+          </div>
+
+          <div class="column large-5">
+              <div class="footer-contacts">
+                  <div class="footer-contact-block" data-aos="fade-up">
+                      <h5 class="footer-contact-block__header">
+                          Email
+                      </h5>
+                      <p class="footer-contact-block__content">
+                          <a href="mailto:jovaldo.leon@gmail.com">jovaldo.leon@gmail.com</a>
+                      </p>
+                  </div> <!-- end footer-contact-block -->
+                  <div class="footer-contact-block" data-aos="fade-up">
+                      <h5 class="footer-contact-block__header">
+                          Teléfono
+                      </h5>
+                      <p class="footer-contact-block__content">
+                          <a href="tel:+51960915633">+51 960 915 633</a>
+                      </p>
+                  </div> <!-- end footer-contact-block -->
+                  <br>
+                  <div class="footer-contact-block" data-aos="fade-up">
+                      <h5 class="footer-contact-block__header">
+                          Social
+                      </h5>
+                      <ul class="footer-contact-block__list">
+                          <li>
+                              <a href="https://www.linkedin.com/in/mao-leon/" class="social-link social-link--linkedin" target="_blank" rel="noopener noreferrer">
+                                  <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                  </svg>
+                                  <span>LinkedIn</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="https://www.instagram.com/mao__leon/" class="social-link social-link--instagram" target="_blank" rel="noopener noreferrer">
+                                  <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                                      <defs>
+                                          <linearGradient id="instagram-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                                              <stop offset="0%" stop-color="#fa7e1e"/>
+                                              <stop offset="35%" stop-color="#d62976"/>
+                                              <stop offset="70%" stop-color="#962fbf"/>
+                                              <stop offset="100%" stop-color="#4f5bd5"/>
+                                          </linearGradient>
+                                      </defs>
+                                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                  </svg>
+                                  <span>Instagram</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="https://wa.me/51960915633" class="social-link social-link--whatsapp" target="_blank" rel="noopener noreferrer">
+                                  <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                                      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                                  </svg>
+                                  <span>WhatsApp</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div> <!-- end footer-contact-block -->
+              </div>
+          </div>
+      </div> <!-- end s-footer__main -->
+
+      <div class="row s-footer__bottom">
+          <div class="column large-full ss-copyright">
+              <span>© Mao Leon</span> 
+              <span>Diseño y desarrollo por <a href="https://www.linkedin.com/in/mao-leon/" target="_blank" rel="noopener noreferrer">Mao Leon</a></span>
+          </div> <!-- end ss-copyright -->
+
+          <div class="ss-go-top">
+              <a class="smoothscroll" title="Volver arriba" aria-label="Volver arriba" href="#top">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+              </a>
+          </div> <!-- end ss-go-top -->
+      </div> <!-- end s-footer__bottom -->
+
+  </footer> <!-- end s-footer -->
+
+
+  <!-- photoswipe background
+  ================================================== -->
+  <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
+
+          <div class="pswp__ui pswp__ui--hidden">
+              <div class="pswp__top-bar">
+                  <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                              <div class="pswp__preloader__donut"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div>
+              </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
+          </div>
+
+      </div>
+
+  </div> <!-- end photoSwipe background -->
+
+
+  <!-- Java Script
+    ================================================== -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script data-goatcounter="https://mao-leon.goatcounter.com/count"
+          async src="https://gc.zgo.at/count.js"></script>
+</body>
+
+</html>

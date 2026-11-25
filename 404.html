@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>404 · Página no encontrada | Mao Leon</title>
+  <meta name="description" content="La ruta solicitada no existe en el perfil de Mao Leon.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;700;800&family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg-primary: #10182B;
+      --accent-orange: #f9861a;
+      --accent-blue: #007FFF;
+      --text-primary: #ffffff;
+      --text-muted: rgba(255, 255, 255, 0.62);
+      --border-subtle: rgba(255, 255, 255, 0.08);
+    }
+
+    ::selection {
+      background-color: var(--accent-orange);
+      color: #ffffff;
+    }
+
+    ::-moz-selection {
+      background-color: var(--accent-orange);
+      color: #ffffff;
+    }
+
+    html {
+      font-size: 10px;
+    }
+
+    body {
+      min-height: 100vh;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: "Gothic A1", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow-x: hidden;
+      position: relative;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Fondo arquitectonico sutil sobre #10182B */
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(circle at 50% 45%, rgba(0, 0, 0, 0.9) 15%, transparent 75%);
+      -webkit-mask-image: radial-gradient(circle at 50% 45%, rgba(0, 0, 0, 0.9) 15%, transparent 75%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .bg-glow {
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(600px circle at 20% 25%, rgba(0, 127, 255, 0.09), transparent 60%),
+        radial-gradient(520px circle at 80% 70%, rgba(249, 134, 26, 0.08), transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Header */
+    .error-header {
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      padding: 3.6rem 8rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-logo-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      outline: none !important;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+
+    .header-logo-link:hover {
+      opacity: 0.85;
+      transform: translateY(-1px);
+    }
+
+    .header-logo-svg {
+      height: 36px;
+      width: auto;
+      display: block;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.9rem;
+      padding: 0.7rem 1.4rem;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      font-family: "Work Sans", sans-serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      letter-spacing: 0.18rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--accent-orange);
+      animation: pulse-dot 2.2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
+
+    /* Main Content */
+    .error-main {
+      position: relative;
+      z-index: 10;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2.4rem;
+    }
+
+    .error-card {
+      max-width: 760px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .error-code-wrap {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 1.8rem;
+      user-select: none;
+    }
+
+    .error-code {
+      font-family: "Work Sans", sans-serif;
+      font-size: clamp(9.6rem, 19vw, 18rem);
+      font-weight: 700;
+      line-height: 0.9;
+      letter-spacing: -0.04em;
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.22);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.12) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      position: relative;
+    }
+
+    .error-code-accent {
+      color: var(--accent-orange);
+      -webkit-text-fill-color: var(--accent-orange);
+      -webkit-text-stroke: 0;
+    }
+
+    .error-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 1.4rem;
+      font-family: "Work Sans", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: 0.35rem;
+      text-transform: uppercase;
+      color: var(--accent-orange);
+      margin-bottom: 2rem;
+    }
+
+    .error-eyebrow::before,
+    .error-eyebrow::after {
+      content: '';
+      width: 3.2rem;
+      height: 1px;
+      background: rgba(249, 134, 26, 0.55);
+    }
+
+    .error-title {
+      font-size: clamp(2.8rem, 4.4vw, 4.4rem);
+      font-weight: 700;
+      line-height: 1.22;
+      color: #ffffff;
+      margin-bottom: 1.8rem;
+      letter-spacing: -0.01em;
+    }
+
+    .error-desc {
+      font-size: 1.7rem;
+      line-height: 1.7;
+      color: var(--text-muted);
+      max-width: 540px;
+      margin: 0 auto 2.6rem;
+    }
+
+    .error-path-box {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.9rem 1.8rem;
+      margin-bottom: 4.2rem;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.035);
+      border: 1px solid var(--border-subtle);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 1.3rem;
+      color: rgba(255, 255, 255, 0.78);
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .error-path-prefix {
+      color: var(--accent-orange);
+      font-weight: 700;
+    }
+
+    /* Boton Volver estilo Download CV con Water Blob */
+    .btn-actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn-water-blob--cv {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 5.6rem;
+      line-height: 5.2rem;
+      padding: 0 4rem;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 600;
+      font-size: 1.15rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+      text-decoration: none;
+      background: transparent !important;
+      background-color: transparent !important;
+      border: 0.2rem solid #ffffff !important;
+      color: #ffffff !important;
+      overflow: hidden !important;
+      cursor: pointer;
+      user-select: none;
+      outline: none !important;
+      box-shadow: none !important;
+      -webkit-tap-highlight-color: transparent !important;
+      transition: border-color 0.4s ease, transform 0.2s ease;
+    }
+
+    .btn-water-blob--cv:hover,
+    .btn-water-blob--cv:focus {
+      border-color: var(--accent-orange) !important;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+
+    .btn-water-blob--cv:active {
+      transform: scale(0.98);
+      filter: brightness(0.92);
+    }
+
+    .btn-water-blob__canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .btn-water-blob__label {
+      position: relative;
+      z-index: 2;
+      pointer-events: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 1.2rem;
+      color: #ffffff !important;
+    }
+
+    .btn-water-blob__arrow {
+      width: 15px;
+      height: 15px;
+      transition: transform 0.35s ease;
+      flex-shrink: 0;
+    }
+
+    .btn-water-blob--cv:hover .btn-water-blob__arrow {
+      transform: translateX(-4px);
+    }
+
+    /* Footer */
+    .error-footer {
+      position: relative;
+      z-index: 10;
+      padding: 0 8rem 3.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.3rem;
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    @media screen and (max-width: 900px) {
+      .error-header {
+        padding: 2.8rem 3.2rem 0;
+      }
+
+      .header-logo-svg {
+        height: 32px;
+      }
+
+      .status-pill {
+        display: none;
+      }
+
+      .error-footer {
+        padding: 0 3.2rem 2.8rem;
+        flex-direction: column;
+        gap: 0.8rem;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .btn-water-blob--cv {
+        padding: 0 2.8rem;
+        letter-spacing: 0.35rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="error-header">
+    <a href="index.html" class="header-logo-link js-home-link" aria-label="Volver al perfil de Mao Leon">
+      <svg class="header-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="5768 6918 9470 4371" fill-rule="evenodd" clip-rule="evenodd">
+        <path fill="#FEFEFE" d="M5918.27 11057.29c599.55,-124.12 1101.6,-492.7 1580.76,-857.85 638.61,-486.69 740.85,-947.08 921.2,-1093.9 113.4,68.56 401.69,885.96 460.95,910.83 108.49,32.97 1050.93,-741.19 1304.07,-897.83 -16.81,141.74 -703.15,1492.17 -807.27,2020.26 288.39,-147.69 538.45,-532.22 811.28,-1003.1 145.98,-251.97 293.57,-508.45 461.96,-786.82 120.3,-198.89 253.65,-418.89 393.58,-611.08 74.91,-102.9 154.1,-202.84 235.18,-300.93 323.2,-391.04 704.08,-696.32 1128.82,-954.84 83.54,-50.85 168.78,-99.89 255.61,-147.41 53.5,-29.29 448.18,-205.6 449.63,-206.78 -852.47,-60.13 -2449.15,931.92 -3204.8,1348.97 -232.31,128.22 -293.41,175.74 -384.41,122.96 -63.22,-36.67 -140.89,-121.77 -300.45,-261.86 -77.69,-68.21 -141.37,-137.4 -196.28,-204.52 -815.77,-997.12 -2151.7,-1035.22 -2145.28,-1028.63 187.23,192.02 360.18,382.86 522.56,596.95 205.9,271.46 343.94,452.22 131.21,772.93 -598.09,901.65 -1026.23,1702.18 -1618.32,2582.65z"/>
+        <path fill="#FEFEFE" d="M9992.6 11137.92c243.39,-29.8 500.3,-81.19 743.51,-122.06 729.4,-122.56 1500.42,-251.8 2219.35,-404.95 716.57,-152.64 1437.64,-460.18 2132.33,-706.09l-1083.27 -1.12 -2269.2 -2.33c218.32,-567.91 530.12,-1209.89 773.55,-1788.15 83.86,-199.2 233.16,-432.45 344.7,-628.1 -1401.01,712.32 -1831.59,1647.02 -2527.54,2977.64 -132.78,253.9 -278.01,537.78 -333.43,675.16z"/>
+      </svg>
+    </a>
+
+    <div class="status-pill">
+      <span class="status-dot"></span>
+      <span>HTTP 404 · Ruta inválida</span>
+    </div>
+  </header>
+
+  <main class="error-main">
+    <section class="error-card">
+      <div class="error-code-wrap" aria-hidden="true">
+        <div class="error-code">4<span class="error-code-accent">0</span>4</div>
+      </div>
+
+      <div class="error-eyebrow">Página no encontrada</div>
+
+      <h1 class="error-title">Esta ruta no forma parte de mi perfil.</h1>
+
+      <p class="error-desc">
+        Es posible que la dirección contenga un error tipográfico o que el recurso ya no esté disponible. Puedes regresar al portafolio principal desde aquí.
+      </p>
+
+      <div class="error-path-box" id="error-path-box">
+        <span class="error-path-prefix">GET</span>
+        <span id="invalid-path">/ruta-desconocida</span>
+      </div>
+
+      <div class="btn-actions">
+        <a href="index.html" class="btn-water-blob--cv js-home-link">
+          <canvas class="btn-water-blob__canvas"></canvas>
+          <span class="btn-water-blob__label">
+            <svg class="btn-water-blob__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            <span>Volver al perfil</span>
+          </span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="error-footer">
+    <span>Mao Leon · Software Engineer</span>
+    <span>Portafolio Oficial</span>
+  </footer>
+
+  <script>
+    (function () {
+      // Mostrar ruta solicitada (sin exponer ruta local de disco) y resolver retorno al perfil
+      var pathEl = document.getElementById('invalid-path');
+      if (pathEl) {
+        if (window.location.protocol === 'file:') {
+          pathEl.textContent = 'https://mao-leon.github.io/ruta-no-encontrada';
+        } else {
+          pathEl.textContent = window.location.pathname || '/';
+        }
+      }
+
+      if (window.location.protocol.indexOf('http') === 0) {
+        var homeHref = 'https://mao-leon.github.io/';
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+          var segments = window.location.pathname.split('/').filter(Boolean);
+          homeHref = (segments.length > 0 && segments[0].toLowerCase() === 'mao-leon') ? '/' + segments[0] + '/' : '/';
+        }
+        document.querySelectorAll('.js-home-link').forEach(function (link) {
+          link.setAttribute('href', homeHref);
+        });
+      }
+
+      // Configuracion de masa liquida identica a la dinamica progresiva de Download CV
+      var CV_BLOB_CONFIG = {
+        size: {
+          maxRatio: 1.25,
+          enterRatio: 0.055,
+          exitRatio: 0.04,
+          clickPulsePx: 12
+        },
+        physics: {
+          followEase: 0.04,
+          resizeEase: 0.016,
+          fadeEase: 0.06,
+          waveSpeed: 0.022,
+          wavePoints: 64
+        },
+        waves: {
+          outer: {
+            scale: 1.35,
+            phaseOffset: 1.2,
+            colorCenter: 'rgba(255, 195, 120, 0.95)',
+            colorMid: 'rgba(255, 171, 83, 0.60)',
+            colorEdge: 'rgba(249, 134, 26, 0.15)'
+          },
+          inner: {
+            scale: 1.0,
+            phaseOffset: 0.0,
+            colorCenter: 'rgba(249, 134, 26, 1.0)',
+            colorMid: 'rgba(249, 134, 26, 0.95)',
+            colorEdge: 'rgba(249, 134, 26, 0.85)'
+          }
+        }
+      };
+
+      class WaterBlobController {
+        constructor(btn, cfg) {
+          this.btn = btn;
+          this.cfg = cfg;
+          this.canvas = btn.querySelector('.btn-water-blob__canvas');
+          if (!this.canvas) return;
+          this.ctx = this.canvas.getContext('2d');
+          this.state = {
+            x: 0,
+            y: 0,
+            targetX: 0,
+            targetY: 0,
+            radius: 0,
+            targetRadius: 0,
+            alpha: 0,
+            targetAlpha: 0,
+            time: 0
+          };
+          this.handleResize();
+          this.bindEvents();
+          this.startLoop();
+        }
+
+        getMetrics() {
+          const maxDimension = Math.max(this.canvas.width, this.canvas.height);
+          const maxRadius = maxDimension * this.cfg.size.maxRatio;
+          return {
+            maxRadius: maxRadius,
+            enterRadius: maxRadius * this.cfg.size.enterRatio,
+            exitRadius: maxRadius * this.cfg.size.exitRatio
+          };
+        }
+
+        getRelativePointer(event) {
+          const rect = this.btn.getBoundingClientRect();
+          return {
+            x: event.clientX - rect.left,
+            y: event.clientY - rect.top
+          };
+        }
+
+        handleResize() {
+          this.canvas.width = this.btn.offsetWidth;
+          this.canvas.height = this.btn.offsetHeight;
+          this.state.x = this.canvas.width * 0.5;
+          this.state.y = this.canvas.height * 0.5;
+          this.state.targetX = this.state.x;
+          this.state.targetY = this.state.y;
+        }
+
+        bindEvents() {
+          this.onResizeBound = () => this.handleResize();
+          window.addEventListener('resize', this.onResizeBound);
+
+          this.btn.addEventListener('mouseenter', (e) => {
+            const pos = this.getRelativePointer(e);
+            const metrics = this.getMetrics();
+
+            this.state.x = pos.x;
+            this.state.y = pos.y;
+            this.state.radius = metrics.enterRadius;
+            this.state.alpha = Math.max(this.state.alpha, 0.25);
+
+            this.state.targetX = pos.x;
+            this.state.targetY = pos.y;
+            this.state.targetRadius = metrics.maxRadius;
+            this.state.targetAlpha = 1;
+          });
+
+          this.btn.addEventListener('mousemove', (e) => {
+            const pos = this.getRelativePointer(e);
+            const metrics = this.getMetrics();
+
+            this.state.targetX = pos.x;
+            this.state.targetY = pos.y;
+            this.state.targetRadius = metrics.maxRadius;
+            this.state.targetAlpha = 1;
+          });
+
+          this.btn.addEventListener('mouseleave', () => {
+            const metrics = this.getMetrics();
+            this.state.targetAlpha = 0;
+            this.state.targetRadius = metrics.exitRadius;
+          });
+
+          this.btn.addEventListener('click', () => {
+            this.state.radius += this.cfg.size.clickPulsePx;
+          });
+        }
+
+        updatePhysics() {
+          const physics = this.cfg.physics;
+          const s = this.state;
+
+          s.x += (s.targetX - s.x) * physics.followEase;
+          s.y += (s.targetY - s.y) * physics.followEase;
+          s.radius += (s.targetRadius - s.radius) * physics.resizeEase;
+          s.alpha += (s.targetAlpha - s.alpha) * physics.fadeEase;
+          s.time += physics.waveSpeed;
+        }
+
+        drawWaveLayer(waveConfig) {
+          const ctx = this.ctx;
+          const state = this.state;
+          const layerRadius = state.radius * waveConfig.scale;
+          const points = this.cfg.physics.wavePoints;
+
+          const grad = ctx.createRadialGradient(
+            state.x, state.y, layerRadius * 0.05,
+            state.x, state.y, layerRadius
+          );
+          grad.addColorStop(0, waveConfig.colorCenter);
+          grad.addColorStop(0.58, waveConfig.colorMid);
+          grad.addColorStop(1, waveConfig.colorEdge);
+
+          ctx.beginPath();
+          for (let i = 0; i <= points; i++) {
+            const angle = (i / points) * Math.PI * 2;
+            const wave1 = Math.sin(angle * 3 + state.time + waveConfig.phaseOffset) * (state.radius * 0.08);
+            const wave2 = Math.cos(angle * 4 - state.time * 0.8 + waveConfig.phaseOffset) * (state.radius * 0.05);
+            const wave3 = Math.sin(angle * 2 + state.time * 1.2) * (state.radius * 0.06);
+
+            const r = Math.max(0, layerRadius + wave1 + wave2 + wave3);
+            const px = state.x + Math.cos(angle) * r;
+            const py = state.y + Math.sin(angle) * r;
+
+            if (i === 0) ctx.moveTo(px, py);
+            else ctx.lineTo(px, py);
+          }
+          ctx.closePath();
+
+          ctx.fillStyle = grad;
+          ctx.fill();
+        }
+
+        renderFrame() {
+          const ctx = this.ctx;
+          const canvas = this.canvas;
+          const state = this.state;
+
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          if (state.alpha > 0.01 && state.radius > 0.5) {
+            ctx.save();
+            ctx.globalAlpha = state.alpha;
+            this.drawWaveLayer(this.cfg.waves.outer);
+            this.drawWaveLayer(this.cfg.waves.inner);
+            ctx.restore();
+          }
+        }
+
+        startLoop() {
+          const tick = () => {
+            this.updatePhysics();
+            this.renderFrame();
+            this.animationFrameId = requestAnimationFrame(tick);
+          };
+          tick();
+        }
+      }
+
+      document.querySelectorAll('.btn-water-blob--cv').forEach(function (btn) {
+        new WaterBlobController(btn, CV_BLOB_CONFIG);
+      });
+    })();
+  </script>
+</body>
+</html>

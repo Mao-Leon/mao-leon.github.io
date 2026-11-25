@@ -1,0 +1,30 @@
+# Mao Leon
+
+> Portafolio profesional de Mao Leon, Ingeniero de Software Senior Full-Stack, Cloud, DevSecOps e Inteligencia Artificial Aplicada (Perú).
+
+## Identidad y Entidad
+- **Nombre público / Marca:** Mao Leon
+- **Identidad completa (referencia de entidad):** Mao Jovaldo Leon Crispin
+- **Rol principal:** Senior Software Engineer · Full-Stack, Cloud & IA
+- **Experiencia:** 6 años coliderando sistemas distribuidos, plataformas transaccionales y soluciones empresariales de alta disponibilidad.
+- **Idiomas:** Español, Inglés
+- **Sitio oficial:** https://mao-leon.github.io/
+
+## Especialidades Técnicas
+- **Backend & Arquitectura:** Java (Spring Boot, Quarkus), Python (FastAPI), Node.js (NestJS), Clean Architecture, Domain-Driven Design (DDD), Event-Driven Architecture, REST APIs, Redis, Oracle Database.
+- **Frontend & UI/UX:** React (Next.js, Vite), Angular (TypeScript, RxJS), gestión de estado predecible.
+- **Cloud, DevSecOps & SRE:** Azure, AWS, Kubernetes (AKS), Docker, Terraform (IaC), Jenkins, Azure Functions, Dynatrace, Grafana, ELK.
+- **IA Aplicada:** Arquitecturas RAG (Retrieval-Augmented Generation), búsqueda semántica en bases vectoriales, integración de LLMs y Agentic Workflows.
+
+## Proyectos Destacados en Producción
+1. **Programa Qore — BCP:** Microservicios core del programa de lealtad en Java (Quarkus, Spring Boot) bajo Clean Architecture y DDD; tuning JVM en AKS y observabilidad con Dynatrace, Grafana y ELK.
+2. **One Click Deploy (OCD) — BCP:** Flujo CI/CD automatizado en el equipo DevSecOps del BCP con Jenkins, Terraform en Azure y automatizaciones en Python y Node.js (Azure Functions).
+3. **Somos Corredores — Pacífico Seguros:** Modernización de flujos de emisión y venta digital sobre Liferay, Spring MVC, React, TypeScript y Redux Toolkit; CI/CD con Jenkins, JFrog Artifactory y SonarQube.
+4. **Claro Comercio — Claro Perú:** Servicios backend clave en Java/Oracle y procesamiento asíncrono en la nube para la aplicación móvil oficial de ventas comerciales.
+
+## Contacto y Perfiles Oficiales
+- **Email:** jovaldo.leon@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/mao-leon/
+- **GitHub:** https://github.com/Mao-Leon
+- **YouTube:** https://www.youtube.com/channel/UCIbs1nWaDof06giSgJNrxCw
+- **Instagram:** https://www.instagram.com/mao__leon/
